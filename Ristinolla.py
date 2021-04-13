@@ -62,7 +62,7 @@ def onko_voittaja():
 
     if (napit[0].cget('text') != "" and napit[3].cget('text') != "" and napit[6].cget('text') != ""):
         if (napit[0].cget('text') == napit[3].cget('text') and napit[3].cget('text') == napit[6].cget('text')):
-            game_over()![Screenshotweatherapp](https://user-images.githubusercontent.com/34383558/98960006-8a983c00-250c-11eb-85d7-146fa1b85bb5.jpg)
+            game_over()
 
 
     if (napit[1].cget('text') != "" and napit[4].cget('text') != "" and napit[7].cget('text') != ""):
